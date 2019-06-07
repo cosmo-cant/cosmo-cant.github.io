@@ -1,13 +1,39 @@
 html, body {
   margin: 0;
   padding: 0;
+    background-color: cornflowerblue;
 }
 canvas {
   display: block;
 }
 
+h1{
 
+    display: block;
+    font-family: verdana;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+
+
+}
+
+ul {
+    list-style-type: none;
+    border: 1px solid #555;
+    height: 100%; /* Full height */
+float:left;
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+li {text-align: center;
+    border-bottom: 1px solid #555;}
 li a {
+    font-family: verdana;
     display: block;
     color: #000;
     padding: 8px 16px;
@@ -18,4 +44,19 @@ li a {
 li a:hover {
     background-color: #555;
     color: white;
+}
+div{
+    padding: 2px;
+    border: 1px solid red;
+    margin-left: 100px;
+    }
+script{
+    margin-left:210px;
+    position: relative;
+}
+img{
+
+    margin:10px;
+    border: 1px solid red;
+
 }
